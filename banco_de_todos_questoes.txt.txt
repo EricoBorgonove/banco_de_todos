@@ -1,0 +1,413 @@
+NÍVEL 1 — CONSULTAS BÁSICAS (1–40)
+
+Liste todos os bancos cadastrados.
+
+ 
+
+Liste todos os usuários do sistema.
+
+Liste todas as contas bancárias.
+
+Liste todas as transações registradas.
+
+Liste todos os tipos de conta.
+
+Liste todos os tipos de transação.
+
+Liste todas as agências.
+
+Mostre o nome e email de todos os clientes.
+
+Mostre o nome e telefone dos clientes.
+
+	Liste todas as contas ativas.
+
+Liste todas as contas inativas.
+
+Liste todas as contas com saldo maior que 1000.
+
+Liste todas as contas com saldo menor que 500.
+
+Liste todos os clientes que possuem CPF cadastrado.
+
+Liste todos os clientes que possuem CNPJ cadastrado.
+
+Mostre todos os usuários ativos.
+
+Mostre todos os usuários inativos.
+
+Liste todas as transações com valor maior que 1000.
+
+Liste todas as transações com valor menor que 50.
+
+Liste os clientes ordenados por nome.
+
+Liste as contas ordenadas por saldo.
+
+Liste os bancos ordenados por nome.
+
+Liste as transações ordenadas por data.
+
+Mostre os 10 primeiros clientes cadastrados.
+
+Mostre as 20 primeiras transações.
+
+Liste todas as agências do estado de SP.
+
+Liste todas as agências da cidade de São Paulo.
+
+Liste todos os clientes com email gmail.
+
+Liste todos os clientes com telefone começando com +55.
+
+Mostre todas as contas com saldo entre 1000 e 5000.
+
+Liste todas as transações entre 100 e 1000.
+
+Mostre contas com saldo igual a zero.
+
+Liste clientes cujo nome começa com "Maria".
+
+Liste clientes cujo nome termina com "Silva".
+
+Liste clientes cujo nome contém "Oliveira".
+
+Mostre todas as contas criadas hoje.
+
+Liste transações realizadas hoje.
+
+Mostre contas criadas nos últimos 30 dias.
+
+Liste usuários cadastrados no último mês.
+
+
+
+NÍVEL 2 — FILTROS E FUNÇÕES (41–80)
+
+Conte quantos clientes existem no banco.
+
+Conte quantas contas existem.
+
+Conte quantas transações foram registradas.
+
+Conte quantos bancos existem.
+
+Conte quantas agências existem.
+
+Mostre o maior saldo de conta.
+
+Mostre o menor saldo de conta.
+
+Mostre a média de saldo das contas.
+
+Mostre o valor total guardado em todas as contas.
+
+Mostre o valor médio das transações.
+
+Liste clientes cujo nome possui mais de 10 caracteres.
+
+Mostre o tamanho do nome de cada cliente.
+
+Mostre o nome dos clientes em letras maiúsculas.
+
+Mostre o nome dos clientes em letras minúsculas.
+
+Mostre os primeiros 5 caracteres do nome do cliente.
+
+Liste contas criadas em 2024.
+
+Liste transações feitas em janeiro.
+
+Liste transações feitas no último ano.
+
+Mostre o dia da semana de cada transação.
+
+Mostre o mês das transações.
+
+Liste contas cujo saldo é múltiplo de 100.
+
+Liste transações cujo valor termina em .00.
+
+Mostre contas cujo saldo é maior que a média.
+
+Mostre transações cujo valor é maior que a média.
+
+Liste clientes com nomes duplicados.
+
+Mostre contas cujo saldo está no top 10%.
+
+Liste transações entre duas datas específicas.
+
+Mostre contas abertas no último ano.
+
+Mostre contas abertas no último mês.
+
+Liste contas abertas nos últimos 7 dias.
+
+Liste transações feitas em finais de semana.
+
+Liste transações feitas em dias úteis.
+
+Liste contas cujo saldo é negativo.
+
+Liste contas com saldo superior a 50.000.
+
+Liste contas com saldo inferior a 100.
+
+Liste clientes cujo nome tem exatamente 2 palavras.
+
+Liste clientes cujo nome tem mais de 2 palavras.
+
+Liste contas cujo número termina em 0.
+
+Liste contas cujo número começa com 1.
+
+Liste contas cujo número contém 999.
+
+NÍVEL 3 — JOINS (81–120)
+
+Liste clientes e suas contas.
+
+Liste clientes, contas e saldo.
+
+Liste clientes e o banco de suas contas.
+
+Liste contas e suas agências.
+
+Liste contas e o tipo de conta.
+
+Liste clientes, contas e agências.
+
+Liste clientes, contas e cidades das agências.
+
+Liste contas, bancos e saldo.
+
+Liste contas e tipos de conta.
+
+Liste transações e tipos de transação.
+
+Liste transações e contas de origem.
+
+Liste transações e contas de destino.
+
+Liste clientes que fizeram transações.
+
+Liste clientes que receberam transações.
+
+Liste contas que nunca fizeram transações.
+
+Liste clientes que possuem mais de uma conta.
+
+Liste bancos e suas agências.
+
+Liste agências e seus bancos.
+
+Liste contas e seus clientes.
+
+Liste contas e suas transações.
+
+Liste clientes que possuem contas em mais de um banco.
+
+Liste bancos que possuem mais de 10 agências.
+
+Liste contas e número de transações.
+
+Liste clientes e total movimentado.
+
+Liste bancos e total movimentado.
+
+Liste clientes e última transação realizada.
+
+Liste contas e última transação.
+
+Liste contas e primeira transação.
+
+Liste clientes e número de contas.
+
+Liste bancos e número de contas.
+
+Liste contas e número de transações recebidas.
+
+Liste contas e número de transações enviadas.
+
+Liste contas e valor total enviado.
+
+Liste contas e valor total recebido.
+
+Liste contas e saldo atual com banco.
+
+Liste clientes e saldo total em contas.
+
+Liste clientes e número de transações.
+
+Liste agências e número de contas.
+
+Liste bancos e número de clientes.
+
+Liste cidades e número de agências.
+
+
+
+NÍVEL 4 — AGREGAÇÕES (121–160)
+
+Total de saldo por banco.
+
+Total de saldo por agência.
+
+Total de saldo por tipo de conta.
+
+Média de saldo por banco.
+
+Média de saldo por tipo de conta.
+
+Total movimentado por cliente.
+
+Total movimentado por banco.
+
+Total movimentado por agência.
+
+Total movimentado por dia.
+
+Total movimentado por mês.
+
+Total de transações por tipo.
+
+Total de transações por banco.
+
+Total de transações por cliente.
+
+Total de transações por conta.
+
+Total de transações por agência.
+
+Clientes com maior saldo total.
+
+Contas com maior saldo.
+
+Bancos com maior volume financeiro.
+
+Agências com maior número de contas.
+
+Clientes que mais movimentam dinheiro.
+
+Contas com maior número de transações.
+
+Clientes que mais enviam dinheiro.
+
+Clientes que mais recebem dinheiro.
+
+Bancos com maior número de clientes.
+
+Agências com maior volume de transações.
+
+Média de transações por conta.
+
+Média de saldo por cliente.
+
+Média de valor de transações por banco.
+
+Média de transações por cliente.
+
+Média de contas por cliente.
+
+Clientes com saldo acima da média.
+
+Bancos com saldo acima da média.
+
+Contas com transações acima da média.
+
+Agências com número de contas acima da média.
+
+Clientes com mais contas que a média.
+
+Bancos com maior saldo médio.
+
+Bancos com menor saldo médio.
+
+Clientes com menor saldo.
+
+Agências com menor volume financeiro.
+
+Bancos com menos clientes.
+
+NÍVEL 5 — CONSULTAS AVANÇADAS (161–200)
+
+Ranking de clientes por saldo total.
+
+Ranking de bancos por movimentação financeira.
+
+Ranking de contas por número de transações.
+
+Ranking de agências por número de contas.
+
+Ranking de clientes por número de contas.
+
+Top 10 clientes mais ricos.
+
+Top 10 contas com maior movimentação.
+
+Top 10 bancos com maior volume.
+
+Top 10 agências com mais clientes.
+
+Top 10 contas com mais transações.
+
+Clientes que nunca fizeram transações.
+
+Contas que nunca receberam transferências.
+
+Bancos sem agências.
+
+Clientes sem contas.
+
+Contas sem histórico de saldo.
+
+Clientes que transferem dinheiro entre suas próprias contas.
+
+Contas que recebem dinheiro de muitas contas diferentes.
+
+Clientes que movimentaram mais de 100 mil.
+
+Bancos com crescimento de saldo nos últimos meses.
+
+Agências com maior crescimento de clientes.
+
+Detectar contas com transações suspeitas.
+
+Detectar contas com muitos saques.
+
+Detectar contas com muitos depósitos.
+
+Detectar contas com valores muito altos.
+
+Detectar clientes com movimentação anormal.
+
+Clientes que enviaram dinheiro para mais de 10 contas diferentes.
+
+Contas que receberam dinheiro de mais de 10 contas diferentes.
+
+Clientes com contas em várias cidades.
+
+Clientes com contas em vários bancos.
+
+Contas com saldo acima do total médio.
+
+Identificar clientes VIP (top 1%).
+
+Identificar contas inativas com saldo alto.
+
+Identificar clientes com contas inativas.
+
+Identificar bancos com poucos clientes.
+
+Identificar agências com baixa movimentação.
+
+Relatório completo de movimentação por cliente.
+
+Relatório de movimentação por banco.
+
+Relatório mensal de transações.
+
+Relatório anual de movimentação financeira.
+
+Dashboard financeiro geral do sistema.
